@@ -21,5 +21,5 @@ testSortListStrSuccess:
   description: Tests that sort_list.sl operation finishes with result = ['element1', 'element2', 'element3', 'element4', 'element5', 'element6', 'element7']
   testFlowPath: io.cloudslang.base.lists.sort_list
   outputs:
-    - result: ["'element1'", "'element2'", "'element3'", "'element4'", "'element5'", "'element6'", "'element7'"]
+    - result: ['element1', 'element2', 'element3', 'element4', 'element5', 'element6', 'element7']
   result: SUCCESS
