@@ -65,7 +65,7 @@ test:
         fi
       : parallel: true
     - ? > ### every machine
-        wget https://www.dropbox.com/s/bw96wdzgv02d3eu/cslang-builder.zip
+        wget https://www.dropbox.com/s/xpdddowkbr99h94/cslang-builder.zip
         && unzip cslang-builder.zip -d cslang-builder
         && chmod +x cslang-builder/bin/cslang-builder
         && mkdir cslang-builder/lib/Lib
